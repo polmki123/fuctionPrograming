@@ -5,13 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/3강 지연.js",
+      "name": "Python: Current File",
+      "type": "python",
       "request": "launch",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "type": "pwa-node"
+      "program": "${file}",
+      "console": "integratedTerminal"
     },
     {
       "type": "pwa-chrome",

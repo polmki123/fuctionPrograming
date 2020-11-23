@@ -59,10 +59,12 @@ const reduce = curry( function ( f, acc, iter){
 
 const add = (a, b) => a+ b;
 
+
 // 위의 변경된 reduce를 사용하면 축약된 형태로 작성 가능해 진다. 
 const go = (...fs) =>  reduce( (a,f) => f(a) , fs); 
 
 const add2 = curry( (a,b) => a+b );
+
 
 const arr = [
   [1,2],
