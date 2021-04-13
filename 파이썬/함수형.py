@@ -45,3 +45,13 @@ def tail_recur(f):
 # 문제를 쪼갠다 그리고 순수함수를 만들고 함수를 형성 
 
 # Category Theory for Programmers 
+
+
+class name :
+
+    def __init__(self):
+        super().__init__()
+
+    @staticmethod
+    def go ():
+        print("gogogo")
